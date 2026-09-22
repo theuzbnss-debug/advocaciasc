@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/client",
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/direitobancario/", "destination": "/direito-bancario/", "permanent": true },
+    { "source": "/direito-bancario-cheque-especial/", "destination": "/direito-bancario/", "permanent": true },
+    { "source": "/direito-bancario-contratos-globalizados/", "destination": "/direito-bancario/", "permanent": true },
+    { "source": "/direito-bancario-emprestimos-pessoais/", "destination": "/direito-bancario-emprestimo-cartao-de-credito/", "permanent": true },
+    { "source": "/direito-bancario-financiamento-de-imoveis/", "destination": "/direito-bancario/", "permanent": true },
+    { "source": "/direito-bancario-financiamento-de-veiculos/", "destination": "/busca-apreensao-veiculos-juros-abusivos/", "permanent": true },
+    { "source": "/direito-bancario-capital-de-giro/", "destination": "/direito-bancario/", "permanent": true },
+    { "source": "/direito-bancario-revisional-cartao-de-credito/", "destination": "/direito-bancario-emprestimo-cartao-de-credito/", "permanent": true }
+  ]
+}
